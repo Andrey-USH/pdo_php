@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    }
+
+#data {
+    width: 50%;
+    border: 1px solid black;
+}
+.users_list{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid black;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    font-size: 24px;
+    justify-content: center;
+}
+input, select{
+    padding: 8px;
+}
+.btn{
+    display: flex;
+    width: 100px;
+    padding: 8px;
+    margin: 25px auto;
+    justify-content: center;
+}
+.info{
+    width: 100px;
+}
